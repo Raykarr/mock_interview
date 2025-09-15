@@ -1,4 +1,4 @@
-### Project Assessment & Analysis
+# Project Assessment & Analysis
 
 ## What is the technical architecture of your implementation? What models did you use? Why did you choose this architecture?
 
@@ -20,7 +20,7 @@ POC is built on a **3-Tier Client-Server Architecture** for simplicity and rapid
       * **OpenRouter:** Used as a gateway to access a powerful Large Language Model (LLM) for generating feedback
           * **LLM Model:** `openai/gpt-oss-20b:free` (chosen for its excellent balance of being open-source, intelligent, and free)
 
-**Why this architecture?** 💡
+**Why this architecture?**
 This architecture was chosen because it's **ideal for a POC**. It allows to leverage best-in-class, specialized AI models for each task (speech, text, and reasoning) without building them from scratch. The simple HTTP request-response model was easy to implement and debug, providing a "real-time" feel that is perfectly adequate for a turn-based interview
 
 -----

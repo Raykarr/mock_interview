@@ -41,8 +41,7 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository:**
     ```bash
-    git clone 
-    cd 
+    git clone https://github.com/Raykarr/mock_interview
     ```
 
 2.  **Create a virtual environment (recommended):**
